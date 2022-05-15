@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.slider{
+    width:1100px;
+    border:10px solid black;
+    height:600px;
+    overflow:hidden;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav{
+    position: absolute;
+    bottom:16px;
+    left:50%;
+    transform: translate(-50%);
+    display:flex;
+}
+
+.switch{
+    height:8px;
+    width:30px;
+    cursor: pointer;
+    background-color: #ddd;
+    opacity:0.7;
+    border-radius:10px;
+    transition: all 0.4 ease;
+    margin: 10px;
+
+}
+
+input[name="rad"]{
+    position: absolute;
+    visibility: hidden;
+}
